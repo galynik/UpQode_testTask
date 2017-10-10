@@ -1,0 +1,112 @@
+ @media screen and (max-width: 1024px) and (min-width: 961px) {
+ 	header {
+ 		height: auto;
+ 	}
+ 	.drop_down_menu {
+ 		display: none;
+ 	}
+ 	#header__navbar #header_wrapper {
+ 		width: 90%;
+ 	}
+ 	header nav {
+ 		width: 450px;
+ 	}
+ 	.header__title__content {
+ 		width: 80%;
+ 		height: auto;
+ 	}
+ 	.header__title h1 {
+ 		width: 90%;
+ 	}
+ 	.header__title p {
+ 		width: 90%;
+ 	}
+ 	nav ul li a.menu_mobile {
+ 		display: none;
+ 	}
+ 	.slider_nav {
+ 		-webkit-transform: translateY(240px);
+ 		transform: translateY(240px);
+ 	}
+	 /*A--B--O--U--T*/
+	 
+	 .about {
+		 width: 80%;
+		 margin: auto;
+		 padding-left: 0px;
+	     padding-right: 0px;
+	 }
+	 
+	 .about__img {
+		 display: none;
+	 }
+	 
+	 
+ 	/*P--R--O--D--U--C--T--S*/
+ 	.products {
+ 		height: auto;
+ 	}
+ 	.products__content {
+		height: auto;
+ 		padding-top: 50px;
+		padding-bottom: 50px;
+ 	}
+	 
+	 .products__header {
+		 padding-top: 30px;
+	 }
+ 	.content_wrapper {
+ 		display: -ms-flex;
+ 		display: -moz-box;
+ 		display: -webkit-flex;
+ 		flex-wrap: wrap;
+ 		-ms-flex-direction: row;
+ 		flex-direction: row;
+ 		justify-content: space-between;
+ 		display: flex;
+ 		height: 860px;
+ 		width: 900px;
+ 		margin: auto;
+ 		
+ 	}
+ 	/*C--O--N--T--A--C--T*/
+ 	.contact {
+ 		height: auto;
+ 	}
+ 	.contact form {
+ 		width: 746px;
+ 		height: 435px;
+ 		left: 15%;
+ 		padding-top: 35px;
+ 	}
+ 	.form_container {
+ 		box-sizing: border-box;
+ 		-ms-flex-direction: column;
+ 		flex-direction: column;
+ 		justify-content: space-between;
+ 		margin-left: 0px;
+ 		width: auto;
+ 		margin: auto;
+ 		height: 400px;
+ 	}
+ 	form .form_wrapper {
+ 		width: 490px;
+ 		height: 271px;
+ 		-ms-flex-direction: column;
+ 		flex-direction: column;
+ 		justify-content: space-between;
+ 		margin: auto;
+ 	}
+ 	form .contact_text {
+ 		width: 100%;
+ 		height: auto;
+ 		-ms-flex-direction: row;
+ 		flex-direction: row;
+ 		justify-content: space-between;
+ 		margin: auto;
+ 		justify-content: space-around;
+ 	}
+ 	form .contact_text p {
+ 		width: 28%;
+ 	}
+ }

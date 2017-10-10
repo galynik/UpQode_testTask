@@ -1,0 +1,139 @@
+@media screen and (max-width: 960px) and (min-width: 751px) {
+	header {
+		height: auto;
+	}
+	.drop_down_menu {
+		display: none;
+	}
+	#header__navbar #header_wrapper {
+		width: 90%;
+	}
+	header nav {
+		width: 450px;
+	}
+	.header__title__content {
+		width: 80%;
+		height: auto;
+	}
+	.header__title h1 {
+		font-size: 36px;
+		width: 90%;
+	}
+	.header__title p {
+		width: 90%;
+	}
+	nav a.nav_item {
+		display: none;
+	}
+	nav ul li a.menu_mobile {
+		display: flex;
+	}
+	nav .drop_down_menu {
+		display: none;
+	}
+	.slider_nav {
+		-webkit-transform: translateY(240px);
+		transform: translateY(240px);
+	}
+	
+	
+	/* A----D----V----A----N----T----A----G----E----S*/
+	.advantages__content article {
+		width: 140px;
+		height: 250px;
+		margin-right: 8px;
+		box-sizing: border-box;
+		padding-bottom: 35px;
+	}
+	.advantages__content article p {
+		font-family: "Lato-Light";
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0.04em;
+		color: rgb(55, 55, 55);
+		text-align: center;
+		width: 100px;
+		margin: 0 auto;
+	}
+	/*P--R--O--D--U--C--T--S*/
+	.products {
+		height: auto;
+	}
+	.products__content {
+		height: auto;
+		padding-bottom: 70px;
+		padding-top: 50px;
+	}
+	.content_wrapper {
+		display: -ms-flex;
+		display: -moz-box;
+		display: -webkit-flex;
+		flex-wrap: wrap;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		justify-content: space-between;
+		display: flex;
+		height: 860px;
+		width: 700px;
+		margin: auto;
+	}
+	
+	.products__header {
+		 height: 161px;
+		 padding-top: 30px;
+	 }
+	
+	/*A--B--O--U--T*/
+	.about {
+		width: 80%;
+		margin: auto;
+		padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.about__img {
+		 display: none;
+	 }
+	 
+	
+	/*C--O--N--T--A--C--T*/
+	.contact {
+		height: auto;
+	}
+	.contact form {
+		width: 646px;
+		height: 435px;
+		left: 10%;
+		padding-top: 35px;
+	}
+	.form_container {
+		box-sizing: border-box;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 0px;
+		width: auto;
+		margin: auto;
+		height: 400px;
+	}
+	form .form_wrapper {
+		width: 490px;
+		height: 271px;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: auto;
+	}
+	form .contact_text {
+		width: 100%;
+		height: auto;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: auto;
+		justify-content: space-around;
+	}
+	form .contact_text p {
+		width: 28%;
+	}
+}

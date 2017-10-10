@@ -1,0 +1,261 @@
+@media screen and (max-width: 320px) { 
+	main {
+		height: auto;
+	}
+	/* H----E----A----D----E----R*/
+	.slider_nav {
+		-webkit-transform: translateY(70px);
+		transform: translateY(70px);
+	}
+	header {
+		box-sizing: border-box;
+		height: auto;
+		padding-top: 10px;
+	}
+	#header__navbar #header_wrapper {
+		width: 96%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	header nav {
+		width: 300px;
+	
+	}
+	.header__title__content {
+		width: 80%;
+		height: auto;
+	}
+	
+	nav ul li a.menu_mobile {
+		display: flex;
+	}
+	input#search {
+		width: 50px;
+		background-position: 30px center;
+	}
+	
+	.left,
+	.right {
+		width: 30px;
+		height: 30px;
+	}
+	
+	.header__title h1 {
+		font-size: 36px;
+		width: 90%;
+	}
+	.header__title p {
+		width: 90%;
+	}
+	.header__title {
+		height: 500px;
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: cover;
+		width: 100%;
+		padding-left: 5px;
+	padding-right: 5px;
+	}
+	.header__title__box {
+		width: 80%;
+	}
+	
+	
+	.header__title__box .header__title__content p span {
+		display: none;
+	}
+	
+    header nav ul li a {
+		font-size: 14px;
+	}
+
+	nav a.nav_item {
+		display: none;
+	}
+	/* A----D----V----A----N----T----A----G----E----S*/
+	.advantages {
+		height: auto;
+		padding-top: 25px;
+	}
+	.advantages__header h2,
+	.products__header h2,
+	.contact__header h2 {
+		line-height: 35px;
+	}
+	.advantages__header p,
+	.contact__header p {
+		width: 80%;
+		margin-bottom: 35px;
+	}
+	.advantages__content {
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		margin: auto;
+	}
+	.advantages__content article {
+		margin-right: 0px;
+		margin-bottom: 35px;
+		height: 210px;
+		width: 170px;
+	}
+	/*P--R--O--D--U--C--T--S*/
+	.products {
+		height: auto;
+	}
+	.products__header {
+		padding-top: 10px;
+	background-size: 100% 50%;
+		
+	}
+	.products__content {
+		height: auto;
+		padding-bottom: 30px;
+		padding-top: 0px;
+		margin: auto;
+	}
+	.content_wrapper {
+		display: -ms-flex;
+		display: -moz-box;
+		display: -webkit-flex;
+		display: flex;
+		flex-wrap: wrap;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 1400px;
+		width: 80%;
+		margin: auto;
+		margin-left: 0px;
+	}
+	.content_wrapper>article {
+		height: 200px;
+		width: 300px;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+		margin: auto;
+		margin-bottom: 5px;
+	}
+	.content_wrapper>article .text {
+		align-items: center;
+	}
+	.content_wrapper>article p {
+		display: none;
+	}
+	.content_wrapper>article h5 {
+		display: none;
+	}
+	
+	  /*A--B--O--U--T*/
+	.about {
+		width: 60%;
+		margin: 0;
+		margin-left: 10px;
+		height: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	.about p span {
+		display: none;
+	}
+	.about__img {
+		 display: none;
+	 }
+	.about__header p {
+		width: 280px;
+	}
+	.bar_container {
+	width: 50%;
+	
+	
+}
+	/*C--O--N--T--A--C--T*/
+	.contact {
+		height: auto;
+	}
+	.contact__header p span {
+		display: none;
+	}
+	.contact form {
+		width: 280px;
+		height: 500px;
+		left: 5%;
+		padding-top: 15px;
+	}
+	.form_container {
+		box-sizing: border-box;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 0px;
+		width: auto;
+		margin: 0 auto;
+		height: 440px;
+	}
+	#textarea {
+		height: 100px;
+		resize: none;
+		padding-bottom: 0px;
+	}
+	form .form_wrapper div {
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	form .form_wrapper {
+		width: 280px;
+		height: auto;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: auto;
+		align-items: center;
+	}
+	form .contact_text {
+		font-size: 16px;
+		width: 100%;
+		height: auto;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		margin: auto;
+		text-align: center;
+	}
+	form .contact_text p {
+		width: 100%;
+	}
+	form .contact_text p span.code_country {
+		display: none;
+	}
+	#textarea {
+		height: 100px;
+		resize: none;
+		padding-bottom: 0px;
+	}
+	input[type="text"],
+	select,
+	label {
+		width: 200px;
+	}
+	/*F--O--O--T--E--R*/
+	footer {
+		height: 80px;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		align-items: center;
+		box-sizing: border-box;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 5px;
+		justify-content: space-around;
+	}
+	footer p {
+		text-align: center;
+		line-height: 24px;
+		font-size: 16px;
+	}
+}

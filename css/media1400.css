@@ -1,0 +1,21 @@
+@media screen and (max-width: 1400px) and (min-width: 1281px) {
+	.content_wrapper {
+		margin: auto;
+	}
+	.drop_down_menu {
+		display: none;
+	}
+	
+	#header__navbar #header_wrapper {
+ 		width: 90%;
+ 	}
+	
+	.about {
+		width: 90%;
+		margin: auto;
+		padding-left: 0px;
+	   padding-right: 0px;
+	}
+	
+	
+}
